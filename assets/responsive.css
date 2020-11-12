@@ -1,0 +1,70 @@
+@media all and (max-width: 670px) {
+    .header-logo {
+        display: none;
+    }
+
+    nav li {
+        margin-right: 5px;
+    }
+
+    li {
+        padding: 5px 25px;
+    }
+
+    .food {
+        height: 420px;
+        margin: auto 0;
+        padding: auto;
+    }
+
+    .box1 {
+        flex-basis: 60%;
+    }
+
+    .box2 {
+        flex-basis: 40%;
+    }
+
+    .left {
+        flex-direction: column;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+
+    .photo-left {
+        float: none;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .photo-right {
+        float: none;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .caption-right {
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .caption-left {
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    aside {
+        height: 250px;
+    }
+
+    .biodata {
+        margin: auto;
+        text-align: center;
+    }
+}
